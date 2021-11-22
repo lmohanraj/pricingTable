@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.plan{
+  color: grey;
+  letter-spacing: 0.1rem;
+}
+
+h1{
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+.subscript{
+   font-size: 1rem;
+}
+
+.column{
+  max-width: 100px;
+  min-width: fit-content;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background : white;
+  border-radius: 10px;
+}
+
+.column:hover{
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.row{
+  gap: 20px;
+  height: max-content;
+  justify-content: space-around;
+}
+
+.row > * {
+  max-width: 35%;
+}
+
+.container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+ul{
+  margin-top: 20px;
+  padding: 10px;
+
+}
+
+li{
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 0px;
+  }
+
+.light{
+  color: #c1c1c1;
+}
+
+.dark{
+  color: black;
+}
+
+a{
+  border-radius: 50%;
+}
+.btn {
+  letter-spacing: .1rem;
+  width: 100%;
+  opacity: 0.8;
+}
